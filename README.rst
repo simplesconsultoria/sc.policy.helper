@@ -18,14 +18,38 @@ Requirements
 Installation
 ------------
     
-To enable this product,on a buildout based installation:
+This package should be declared as a dependency from other packages, so add it
+to the install_requires from setup.py
+::
 
-    1. Edit your buildout.cfg and add ``sc.policy.helper``
-       to the list of eggs to install ::
-
-        [buildout]
-        ...
-        eggs = 
-            sc.policy.helper
+      install_requires=[
+        'setuptools',
+        'sc.policy.helper',
+        ],
 
 
+Or declare it in your dependencies.txt file:
+::
+
+	[sc.policy.helper]
+
+
+And it will become available to your package.
+
+
+Usage
+------------
+
+To use its helper methods, import this package (or one of its modules)
+in your code and then use it:
+::
+	
+	import logging
+	from sc.policy.helper import setup
+
+	PROJECTNAME = 'sc.customer.portal'
+	PROFILE_ID = 'sc.customer.portal:default'
+
+	def run_upgrades(context):
+		logger = logging.getLogger('PROJECTNAME')
+    	setup.run_upgrades_for_profile(PROFILE_ID, context, logger)
