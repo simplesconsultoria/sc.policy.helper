@@ -11,7 +11,7 @@ long_description = open("README.rst").read() + "\n" + \
 
 setup(name='sc.policy.helper',
       version=version,
-      description="",
+      description="Helpers to be used with Site Policy packages in Plone.",
       long_description=long_description,
       classifiers=[
         "Development Status :: 3 - Alpha",
