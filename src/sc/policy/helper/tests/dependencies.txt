@@ -1,0 +1,11 @@
+[collective.grok]
+# Installed by sc.policy.helper
+
+[experimental.btree]
+version = 1.1
+
+[plone.app.theming]
+version = 1.0b8
+install = True
+hidden = True
+profile = plone.app.theming:default

@@ -1,0 +1,14 @@
+Sponsoring
+----------
+
+Development of this product was sponsored by :
+    
+    * `Simples Consultoria <http://www.simplesconsultoria.com.br/>`_.
+
+
+Credits
+-------
+
+    * Simples Consultoria (products at simplesconsultoria dot com dot br) - 
+      Implementation
+    
