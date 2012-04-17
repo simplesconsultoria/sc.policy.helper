@@ -4,7 +4,7 @@ Changelog
 1.0b2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+* Add a configure.zcml so collective.grok can be loaded [ericof]
 
 
 1.0b1 (2012-04-16)
