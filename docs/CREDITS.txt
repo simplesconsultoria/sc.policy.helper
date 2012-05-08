@@ -1,14 +1,8 @@
-Sponsoring
-----------
+Contributors
+------------
 
-Development of this product was sponsored by :
-    
-    * `Simples Consultoria <http://www.simplesconsultoria.com.br/>`_.
+- Érico Andrei
+- Héctor Velarde
 
+Development sponsored by Simples Consultoria.
 
-Credits
--------
-
-    * Simples Consultoria (products at simplesconsultoria dot com dot br) - 
-      Implementation
-    
