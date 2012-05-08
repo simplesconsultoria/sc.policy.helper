@@ -4,7 +4,8 @@ import os
 from setuptools import setup, find_packages
 
 version = '1.0b3'
-long_description = open("README.rst").read() + "\n" + \
+long_description = open("README.txt").read() + "\n" + \
+                   open(os.path.join("docs", "INSTALL.txt")).read() + "\n" + \
                    open(os.path.join("docs", "CREDITS.txt")).read() + "\n" + \
                    open(os.path.join("docs", "HISTORY.txt")).read()
 
