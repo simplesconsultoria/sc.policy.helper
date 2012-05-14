@@ -1,8 +1,8 @@
 Contributors
 ------------
 
-- Érico Andrei
-- Héctor Velarde
+- Ã‰rico Andrei
+- HÃ©ctor Velarde
 
 Development sponsored by Simples Consultoria.
 

@@ -1,9 +1,8 @@
-# -*- coding:utf-8 -*-
-
-import os
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
+import os
 
-version = '1.0b4.dev0'
+version = '1.0b4'
 long_description = open("README.txt").read() + "\n" + \
                    open(os.path.join("docs", "INSTALL.txt")).read() + "\n" + \
                    open(os.path.join("docs", "CREDITS.txt")).read() + "\n" + \
@@ -44,6 +43,7 @@ setup(name='sc.policy.helper',
         'test': ['plone.app.testing'],
         },
       entry_points="""
+      # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
       target = plone
       """,

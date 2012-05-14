@@ -1,10 +1,10 @@
 Changelog
 ---------
 
-1.0b4 (unreleased)
+1.0b4 (2012-05-13)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Fix encode to utf-8. [cleberjsantos]
 
 
 1.0b3 (2012-05-13)
